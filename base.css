@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+:root{
+    /* Fontes */
+    --ArchivoBlack: "Archivo Black", sans-serif;
+    --Archivo: "Archivo", sans-serif;
+    --ArchitectsDaughter: "Architects Daughter", cursive;
+    --Inter: "Inter", sans-serif;
+
+    /* Cores */
+    --branco: #fff;
+    --brancoAcinzentado: #ECE6D7;
+    --cinzaEscuro: #1E1E1E;
+    --marrom: #8F5A2B;
+    --marrom-claro: #AA8564;
+    --preto: #000;
+    --preto40: #00000040;
+}
