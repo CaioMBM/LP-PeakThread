@@ -5,3 +5,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: var(--brancoAcinzentado);
+}
+
+/* HEADER */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px 0 100px;
+}
+
+header img{
+    width: 75px;
+    height: 88px;
+}
+
+header div{
+    display: flex;
+    gap: 25px;
+}
+
+header .navLink{
+    font-family: var(--Inter);
+    font-size: 20px;
+    color: var(--cinzaEscuro);
+    text-decoration: none;
+}
