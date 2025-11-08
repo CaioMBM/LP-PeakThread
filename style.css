@@ -34,3 +34,55 @@ header .navLink{
     color: var(--cinzaEscuro);
     text-decoration: none;
 }
+
+
+/* Main */
+main{
+    padding: 0 80px;
+}
+
+section#headline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+div#headlineTextos{
+    width: 590px;
+}
+
+div#headlineTextos h1{
+    font-family: var(--ArchivoBlack);
+    font-size: 45px;
+    color: var(--marrom);
+}
+
+div#headlineTextos h2{
+    margin: 15px 0;
+    font-family: var(--ArchitectsDaughter);
+    font-size: 25px;
+    color: var(--marrom-claro);
+}
+
+div#headlineTextos button{
+    cursor: pointer;
+    border: 0px;
+    border-radius: 15px;
+    padding: 20px 60px;
+    font-size: 15px;
+    font-family: var(--ArchivoBlack);
+    color: var(--branco);
+    background-color: var(--marrom-claro);
+    transition: .3s ease;
+}
+
+div#headlineTextos button:hover{
+    color: var(--branco);
+    background-color: var(--marrom);
+}
+
+section#headline img{
+    width: 387px;
+    height: 565px;
+}
