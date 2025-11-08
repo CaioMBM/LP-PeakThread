@@ -37,9 +37,6 @@ header .navLink{
 
 
 /* Main */
-main{
-    padding: 0 80px;
-}
 
 /* Main - Section Headline */
 section#headline{
@@ -92,6 +89,7 @@ section#headline img{
 /* Main - Section Oferta */
 section#oferta{
     padding: 100px 80px;
+    background-color: var(--branco);
 }
 
 /* Section Oferta - Destaques */
@@ -131,6 +129,7 @@ span.linhaOferta{
 
 /* Section Oferta - Sobre Nós */
 div.sobreContainer{
+    margin: 70px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -152,4 +151,55 @@ div.sobreTextos p{
     font-family: var(--Archivo);
     font-size: 25px;
     color: var(--marrom);
+}
+
+/* Section Oferta - Cards */
+div.cardsContainer{
+    display: flex;
+    justify-content: center;
+}
+
+div.cardContent{
+    width: fit-content;
+    border: 3px solid var(--preto);
+    padding: 50px 40px;
+}
+
+div.cardContent img{
+    border: 1px solid var(--cinzaEscuro);
+}
+
+div.cardContent div{
+    margin: 20px 0;
+}
+
+div.cardContent h2{
+    margin: 5px 0;
+    font-family: var(--Archivo);
+    font-size: 25px;
+    color: var(--preto);
+}
+
+div.cardContent h3{
+    font-family: var(--Archivo);
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--marrom-claro);
+}
+
+div.cardContent button{
+    cursor: pointer;
+    border: none;
+    padding: 18px 45px;
+    font-family: var(--Inter);
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--branco);
+    background-color: var(--marrom-claro);
+    transition: .3s ease;
+}
+
+div.cardContent button:hover{
+    color: var(--branco);
+    background-color: var(--marrom);
 }
