@@ -203,3 +203,55 @@ div.cardContent button:hover{
     color: var(--branco);
     background-color: var(--marrom);
 }
+
+
+/* Main - Section Benefícios */
+section#beneficios{
+    padding: 100px 0;
+}
+
+section#beneficios > div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 120px;
+}
+
+section#beneficios h1{
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: var(--Inter);
+    font-size: 35px;
+}
+
+section#beneficios span{
+    text-decoration: underline;
+    color: var(--marrom);
+}
+
+section#beneficios img{
+    box-shadow: -5px 5px 4px var(--marrom);
+}
+
+div.beneficio{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+div.beneficiosTextos{
+    width: 550px;
+}
+
+div.beneficiosTextos h2{
+    margin-bottom: 15px;
+    font-family: var(--Inter);
+    font-size: 28px;
+    color: var(--marrom);
+}
+
+div.beneficiosTextos p{
+    font-weight: 300;
+    font-family: var(--Inter);
+    font-size: 25px;
+}
