@@ -255,3 +255,78 @@ div.beneficiosTextos p{
     font-family: var(--Inter);
     font-size: 25px;
 }
+
+
+/* Main - Section Depoimentos */
+section#provaSocial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 100px 0;
+    background-color: var(--branco);
+}
+
+section#provaSocial h1{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 35px;
+    font-family: var(--Inter);
+    color: var(--marrom);
+}
+
+section#provaSocial h2{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: var(--Inter);
+    color: var(--cinzaEscuro);
+}
+
+section#provaSocial span{
+    color: var(--marrom-claro);
+}
+
+div.depoimentoContainer{
+    width: fit-content;
+    border: 3px solid var(--preto);
+    display: flex;
+}
+
+div.depoimentoContent{
+    border: 3px solid var(--preto);
+    width: 450px;
+    height: 470px;
+    padding: 50px 40px;
+}
+
+div.depoimentoContent > div{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+div.depoimentoContent img{
+    border-radius: 50%;
+    border: 2px solid var(--preto);
+}
+
+div.depoimentoInfo h3{
+    font-family: var(--Archivo);
+    font-size: 25px;
+}
+
+div.depoimentoInfo h4{
+    font-family: var(--Archivo);
+    font-size: 20px;
+    font-weight: 200;
+    color: var(--marrom);
+}
+
+div.depoimentoContent p{
+    font-family: var(--ArchitectsDaughter);
+    font-size: 22px;
+    font-size: 20px;
+}
