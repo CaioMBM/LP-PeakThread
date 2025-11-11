@@ -408,3 +408,58 @@ form button:hover{
     scale: 1.02;
     box-shadow: -12px 12px 10px var(--preto40);
 }
+
+
+/* FOOTER */
+footer{
+    padding: 40px 50px 25px 50px;
+    background-color: var(--marrom);
+}
+
+footer div.parteSuperior{
+    display: flex;
+    justify-content: space-between;
+}
+
+div.informacoes{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+div.infoAdicionais h1{
+    margin-bottom: 25px;
+    font-family: var(--Archivo);
+    font-size: 32px;
+    color: var(--branco);
+}
+
+div.informacao {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--brancoAcinzentado);
+}
+
+div.informacao p{
+    font-family: var(--Inter);
+    font-size: 16px;
+}
+
+div.redesSocias{
+    display: flex;
+    gap: 15px;
+}
+
+div.redesSocias i{
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 25px;
+    color: var(--marrom-claro);
+    background-color: var(--brancoAcinzentado);
+    transition: .3s ease;
+}
+
+div.redesSocias i:hover{
+    color: var(--preto);
+}
