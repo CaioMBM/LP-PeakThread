@@ -416,6 +416,7 @@ footer{
     background-color: var(--marrom);
 }
 
+/* Footer - Parte Superior */
 footer div.parteSuperior{
     display: flex;
     justify-content: space-between;
@@ -462,4 +463,12 @@ div.redesSocias i{
 
 div.redesSocias i:hover{
     color: var(--preto);
+}
+
+/* Footer - Linha Divisória */
+footer > div#linhadDivisoria{
+    margin: 50px 0;
+    border-radius: 5px;
+    height: 5px;
+    background-color: var(--brancoAcinzentado);
 }
