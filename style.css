@@ -330,3 +330,81 @@ div.depoimentoContent p{
     font-size: 22px;
     font-size: 20px;
 }
+
+
+/* Main - Section CTA */
+section#cta{
+    padding: 100px 0;
+}
+
+section#cta div.ctaContent{
+    border-radius: 15px;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    background-color: var(--marrom);
+    box-shadow: 0 0 20px 10px var(--marrom-claro);
+}
+
+div.ctaContent > div{
+    width: 530px;
+}
+
+div.ctaContent h1{
+    margin-bottom: 15px;
+    font-family: var(--ArchivoBlack);
+    font-size: 42px;
+    color: var(--branco);
+}
+
+div.ctaContent p{
+    font-family: var(--Archivo);
+    font-size: 28px;
+    font-weight: 300;
+    color: var(--brancoAcinzentado);
+}
+
+form {
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+form input, form textarea{
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: var(--brancoAcinzentado);
+}
+
+form textarea{
+    height: 165px;
+}
+
+form input::placeholder, form textarea::placeholder{
+    font-family: var(--Archivo);
+    font-size: 20px;
+    color: var(--preto40);
+}
+
+form button{
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    padding: 15px 0;
+    font-family: var(--ArchivoBlack);
+    font-size: 25px;
+    color: var(--branco);
+    background-color: var(--marrom-claro);
+    box-shadow: -4px 4px 4px var(--preto40);
+    transition: .3s ease;
+}
+
+form button:hover{
+    scale: 1.02;
+    box-shadow: -12px 12px 10px var(--preto40);
+}
