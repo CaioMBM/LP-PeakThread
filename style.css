@@ -19,11 +19,17 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 20px 100px 0 100px;
+    background-color: var(--brancoAcinzentado);
 }
 
 header img{
     width: 75px;
     height: 88px;
+}
+
+header i{
+    display: none;
+    font-size: 50px;
 }
 
 header div{

@@ -1,0 +1,36 @@
+@import url(base.css);
+@import url(style.css);
+
+/* HEADER */
+@media (width: 440px) {
+    /* HEADER */
+    header{
+        padding: 15px 20px;
+    }
+
+    header i.icon-abrirMenu{
+        display: block;
+    }
+
+    header div{
+        display: none;
+        width: 100%;
+        position: absolute;
+        top: 118px;
+        left: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        color: var(--branco);
+    }
+
+    header div a.navLink{
+        width: 100%;
+        border: 2px solid var(--cinzaEscuro);
+        padding: 20px 0;
+        text-align: center;
+        color: var(--branco);
+        background-color: var(--marrom-claro);
+    }
+}
