@@ -12,8 +12,11 @@
         display: block;
     }
 
-    header div{
+    header > div.container-navLinks{
         display: none;
+    }
+
+    header div.content-navLinks{
         width: 100%;
         position: absolute;
         top: 118px;

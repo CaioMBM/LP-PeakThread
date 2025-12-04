@@ -32,7 +32,7 @@ header i{
     font-size: 50px;
 }
 
-header div{
+header div.content-navLinks{
     display: flex;
     gap: 25px;
 }
