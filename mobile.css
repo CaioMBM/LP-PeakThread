@@ -1,7 +1,7 @@
 @import url(base.css);
 @import url(style.css);
 
-/* HEADER */
+
 @media (width: 440px) {
     /* HEADER */
     header{
@@ -35,5 +35,44 @@
         text-align: center;
         color: var(--branco);
         background-color: var(--marrom-claro);
+    }
+
+
+    /* Main */
+    main{
+        padding: 0 20px;
+    }
+
+    /* Main - Section Headline */
+    section#headline{
+        padding-top: 30px;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    div#headlineTextos{
+        width: 100%;
+        text-align: center;
+    }
+
+    div#headlineTextos h1{
+        font-size: 30px;
+    }
+
+    div#headlineTextos h2{
+        margin: 15px auto;
+        width: 310px;
+        font-size: 15px;
+    }
+
+    div#headlineTextos button{
+        border-radius: 20px;
+        padding: 10px 35px;
+        font-size: 12px;
+    }
+
+    section#headline img{
+        width: 202px;
+        height: 295px;
     }
 }
