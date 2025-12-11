@@ -265,7 +265,7 @@ div.beneficiosTextos p{
 }
 
 
-/* Main - Section Depoimentos */
+/* Main - Section Prova Social */
 section#provaSocial{
     display: flex;
     flex-direction: column;
@@ -293,6 +293,7 @@ section#provaSocial h2{
 }
 
 section#provaSocial span{
+    font-weight: bold;
     color: var(--marrom-claro);
 }
 
