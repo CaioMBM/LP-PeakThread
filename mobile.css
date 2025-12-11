@@ -137,7 +137,6 @@
     }
 
     div.cardContent h2{
-        font-family: var(--Archivo);
         font-size: 20px;
     }
 
@@ -148,5 +147,41 @@
     div.cardContent button{
         width: 100%;
         padding: 15px 45px;
+    }
+
+    /* Main - Section Benefícios */
+    section#beneficios{
+        width: 100%;
+        padding: 30px 0;
+    }
+
+    section#beneficios h1{
+        font-size: 32px;
+    }
+
+    section#beneficios > div{
+        gap: 90px;
+    }
+
+    div.beneficio{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    div.beneficio:nth-child(odd){
+        flex-direction: column-reverse;
+    }
+
+    div.beneficiosTextos{
+        text-align: center;
+        width: 100%;
+    }
+
+    div.beneficiosTextos h2{
+        font-size: 24px;
+    }
+
+    div.beneficiosTextos p{
+        font-size: 20px;
     }
 }

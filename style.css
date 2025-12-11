@@ -218,13 +218,6 @@ section#beneficios{
     padding: 100px 0;
 }
 
-section#beneficios > div{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 120px;
-}
-
 section#beneficios h1{
     margin-bottom: 50px;
     text-align: center;
@@ -235,6 +228,13 @@ section#beneficios h1{
 section#beneficios span{
     text-decoration: underline;
     color: var(--marrom);
+}
+
+section#beneficios > div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 120px;
 }
 
 section#beneficios img{
