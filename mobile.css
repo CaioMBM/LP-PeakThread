@@ -79,6 +79,7 @@
         height: 295px;
     }
 
+
     /* Main - Section Oferta */
     section#oferta{
         width: 100vw;
@@ -149,6 +150,7 @@
         padding: 15px 45px;
     }
 
+
     /* Main - Section Benefícios */
     section#beneficios{
         width: 100%;
@@ -185,6 +187,7 @@
         font-size: 20px;
     }
 
+
     /* Main - Section Prova Social */
     section#provaSocial{
         width: 440px;
@@ -210,6 +213,7 @@
         width: 100%;
         height: fit-content;
     }
+
 
     /* Main - Section CTA */
     section#cta{
@@ -247,5 +251,33 @@
 
     form button{
         font-size: 24px;
+    }
+
+
+    /* FOOTER */
+    footer{
+        padding: 40px 20px 25px 20px;
+    }
+
+    /* Footer - Parte Superior */
+    footer div.parteSuperior{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    div.informacao{
+        gap: 15px;
+    }
+
+   /* Footer - Linha Divisória */
+    footer > div#linhadDivisoria{
+        height: 2px;
+    }
+
+    /* Footer -  Parte Inferior*/
+    div.parteInferior{
+        text-align: center;
+        flex-direction: column;
+        gap: 20px;
     }
 }

@@ -444,7 +444,7 @@ div.infoAdicionais h1{
     color: var(--branco);
 }
 
-div.informacao {
+div.informacao{
     display: flex;
     align-items: center;
     gap: 10px;
@@ -462,7 +462,7 @@ div.redesSocias{
 }
 
 div.redesSocias i{
-    border-radius: 30px;
+    border-radius: 50%;
     padding: 10px;
     font-size: 25px;
     color: var(--marrom-claro);
